@@ -17,8 +17,8 @@ Flutter-додаток `mobile_widgets_app` з власними віджетам
 
 ## Запуск
 ```bash
-git clone https://github.com/<username>/flutter-widgets-novitskyi.git
-cd flutter-widgets-novitskyi
+git clone https://github.com/luv66/practice-05-1.git
+cd practice-05-1
 flutter pub get
 flutter run -d chrome      # web
 flutter run                # Android-емулятор / телефон
@@ -34,7 +34,7 @@ Integration-тест (потрібен емулятор/пристрій): `flut
 
 ## Збірка
 ```bash
-flutter build web --release --base-href /flutter-widgets-novitskyi/
+flutter build web --release --base-href /practice-05-1
 flutter build apk --release
 ```
 Web-версія деплоїться на GitHub Pages або Firebase Hosting (див. docs/DEPLOY.md).
